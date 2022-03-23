@@ -1,1 +1,1 @@
-# Tutorial on using myspaghetti's macos-virtualbox script (windows)
+# Tutorial on installing macos in virtual box 
