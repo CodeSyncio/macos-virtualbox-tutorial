@@ -1,0 +1,9 @@
+All the packages needed (just copy and paste) :
+    apt install bash
+	apt install coreutils
+	apt install gzip
+	apt install unzip
+	apt install wget
+	apt install xxd
+	apt install dmg2img
+	apt install virtualbox

@@ -1,0 +1,80 @@
+These instructions will help install a fully operating virtual machine
+of macOS x
+
+Each big part has a name, starting with an "#" .
+followed by what part of the process it install.
+
+§SETUP --> things to do before installation.
+§INSTALLATION --> part(s) of the installation process.
+§ERRORS --> possible error(s) u can encounter.
+
+
+
+All subcategory's:
+    #§SETUP __ Hardware Requirements
+    #§SETUP __ Program Requirements
+    #§SETUP __ Needed System Adjustments
+    #§SETUP __ Installing All Requirements (aka dependencies)
+
+
+
+
+
+
+
+
+
+
+
+
+Instructions start here:
+
+#§SETUP __ Hardware Requirements : 
+    -pc that can allocate 2 cores to the VM
+    -ATLEAST 8Gb of RAM
+    -Enough storage space for all files (around 80gb)
+    -an OK internet connection
+    -computer with virtualisation enabled (boot into ur BIOS and enable it)
+
+
+
+
+#§SETUP __ Program Requirements : 
+    -you will need Virtualbox (https://www.virtualbox.org/wiki/Downloads)
+    -you will need Virtualbox extension pack ^
+    -The script used to build the VM   
+        (https://github.com/myspaghetti/macos-virtualbox/releases)
+        download the "macos-guest-virtualbox.sh" file
+
+
+
+
+#§SETUP __ Needed System Adjustments
+    -WIN + r --> control --> enter --> Programs --> Enable windows features -->
+     Tick the box next to linux subsystem for windows.
+     This will allow you to easily install the requirements.
+     Click continue, and reboot to finish everything
+
+
+
+
+#§SETUP __ Installing All Requirements (aka dependencies)
+    -To install all requirements, open powershell, and type 
+     "apt install <packagename>
+     i will put all required packages in the file "Packages.txt"
+
+
+
+*/*/*TEMPORARELY END*/*/*
+     
+
+    
+
+
+
+
+
+    
+
+
+
